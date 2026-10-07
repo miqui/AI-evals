@@ -1,0 +1,22 @@
+{
+  "name": "ai-evals-llm-node",
+  "private": true,
+  "description": "Model comparison matrix with promptfoo",
+  "scripts": {
+    "eval": "promptfoo eval -c promptfooconfig.yaml",
+    "eval:smoke": "promptfoo eval -c promptfooconfig.smoke.yaml --no-cache",
+    "view": "promptfoo view",
+    "langfuse": "node langfuse-comparison.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@langfuse/client": "^5.13.0",
+    "@langfuse/otel": "^5.13.0",
+    "@langfuse/tracing": "^5.13.0",
+    "@opentelemetry/sdk-node": "^0.223.0",
+    "promptfoo": "^0.121.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0"
+  }
+}

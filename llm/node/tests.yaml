@@ -1,0 +1,11 @@
+# Shared by both configs. Deterministic `icontains` assertions: no judge model.
+- vars: { question: "What is the capital of France?" }
+  assert: [{ type: icontains, value: "Paris" }]
+- vars: { question: "Which movie features a detective hunting a killer using the seven deadly sins?" }
+  assert: [{ type: icontains, value: "Se7en" }]
+- vars: { question: "What is 17 * 3?" }
+  assert: [{ type: icontains, value: "51" }]
+- vars: { question: "What is the chemical symbol for gold?" }
+  assert: [{ type: icontains, value: "Au" }]
+- vars: { question: "Who wrote the novel '1984'?" }
+  assert: [{ type: icontains, value: "Orwell" }]

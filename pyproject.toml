@@ -10,6 +10,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+llm = [
+    "inspect-ai>=0.3.0",
+    "langfuse>=3.0.0",
+]
 dev = [
     "ruff>=0.6.0",
     "pytest>=8.0.0",
@@ -21,3 +25,6 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "W", "UP", "B"]
+
+[tool.setuptools]
+packages = []
