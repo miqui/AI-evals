@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "openspec-propose": {
+      "source": "fission-ai/openspec",
+      "sourceType": "github",
+      "skillPath": "skills/openspec-propose/SKILL.md",
+      "computedHash": "1cf27a2e36f932dee48dd1fcddfdd35c4819277798a2b36c5f0ff0a049980a24"
+    }
+  }
+}

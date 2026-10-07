@@ -1,0 +1,10 @@
+# Offline smoke config: the `echo` provider returns the prompt verbatim, so the
+# assertion only proves the pipeline (config, templating, asserts) runs.
+description: Offline smoke (no API key)
+prompts:
+  - "{{question}}"
+providers:
+  - echo
+tests:
+  - vars: { question: "What is the capital of France?" }
+    assert: [{ type: icontains, value: "France" }]

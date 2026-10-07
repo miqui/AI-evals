@@ -9,6 +9,9 @@ examples, and (where applicable) CI coverage.
 | Path | Topic |
 |------|-------|
 | `braintrust/llm-as-judge/` | LLM-as-a-judge scorers and classifiers with the Braintrust Python SDK |
+| `llm/python/` | Model comparison with Inspect AI, plus Langfuse experiments |
+| `llm/node/` | Model comparison matrix with promptfoo, plus Langfuse experiments (standalone from the Python stack) |
+| `skills/skill-triggering/` | Does Claude Code pick the right skill (and stay quiet otherwise)? Deterministic, via `claude -p` |
 
 ## Topics
 

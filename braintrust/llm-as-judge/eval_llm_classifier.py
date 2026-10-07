@@ -34,6 +34,7 @@ MOVIE_DATASET = [
         ),
         "expected": "Inception",
     },
+    {"input": "The capital of France is?", "expected": "Pariz"},
 ]
 
 

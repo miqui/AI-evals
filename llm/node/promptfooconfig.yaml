@@ -1,0 +1,9 @@
+# prompts x models x tests matrix. Requires ANTHROPIC_API_KEY.
+description: Model comparison
+prompts:
+  - "Answer with only the answer, no explanation.\n\n{{question}}"
+providers:
+  - anthropic:messages:claude-haiku-4-5-20251001
+  - anthropic:messages:claude-sonnet-5-5
+  - anthropic:messages:claude-opus-5-5
+tests: file://tests.yaml
